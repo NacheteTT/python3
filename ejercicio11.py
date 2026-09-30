@@ -1,0 +1,7 @@
+cant = int(input("Di cuanto dinero tienes en la cuenta: "))
+anio1 = float(cant*0.04)
+anio2 = float(anio1*0.04)
+anio3 = float(anio2*0.04)
+print(f"El dinero que tendras en la cuenta despues de 1 año es: {round(anio1,2)} euros")
+print(f"El dinero que tendras en la cuenta despues de 2 años es: {round(anio2,2)} euros")
+print(f"El dinero que tendras en la cuenta despues de 3 años es: {round(anio3,2)} euros")
