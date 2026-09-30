@@ -1,0 +1,5 @@
+num1 = int(input("Introduce el primer numero para dividir: "))
+num2 = int(input("Introduce el segundo numero para dividir: "))
+cociente = int(num1/num2)
+resto = int(num1%num2)
+print(f"La division {num1} entre {num2} es: {cociente} y el resto es: {resto}")
