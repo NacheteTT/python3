@@ -1,0 +1,6 @@
+peso = int(input("Di cuanto pesas en kilogramos: "))
+altura = float(input("Di cuanto mides en centimetros: "))
+alt= float(altura*altura)
+resultado = float(peso/alt)
+imc = round(resultado,2)
+print(f"Tu indice de masa corporal es: {imc}")
